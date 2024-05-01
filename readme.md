@@ -22,7 +22,7 @@ The project structure follows common Django conventions:
   - `Vendor/`: Django app containing API views, serializers, and models
   - `manage.py`: Django management script
   - `requirements.txt`: Project dependencies
-  - `README.md`: Project documentation
+  - `readme.md`: Project documentation
 
 ## Installation
 
@@ -30,10 +30,11 @@ The project structure follows common Django conventions:
 
    ```bash
    git clone https://github.com/Rohit-Pal-21/Vendor_management_System
+   ```
 
 2. `cd Vendor-Management-System`
-3. `python -m venv venv`
-4. `venv\Scripts\activate`
+3. `python -m virtualenv`` venv`
+4. `for(Windows):venv\Scripts\activate && for(Linux): source venv/bin/activate `
 5. `pip install -r requirements.txt`
 6. `python manage.py makemigrations`
 6. `python manage.py migrate`
@@ -42,6 +43,6 @@ The project structure follows common Django conventions:
 ## API Documentation
 The API will be accessible at `http://127.0.0.1:8000/`.
 
-API documentation is available `https://documenter.getpostman.com/view/28628748/2s9YeLYpWZ`.
+API documentation is available `https://www.postman.com/rohitprivate/workspace/fatmug-assignment/request/26297896-24d0972c-8d48-4a91-996b-4c255dcc6428`.
 
 Access the admin interface at `http://127.0.0.1:8000/admin/`.
